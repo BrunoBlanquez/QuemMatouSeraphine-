@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+@font-face {
+  font-family: Beaufort for LOL;
+  src: url(../Fontes/Beaufort/@font-face/Fonte.ttf);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0, 1);
+  height: 77px;
+  width: 100%;
+  position: fixed;
+}
+
+.header li {
+  margin-left: 50px;
+  font-size: 17px;
+}
+
+.header li a {
+  color: #fff;
+  font-family: 'Caudex';
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+
+.fundoCidade {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.introPiltover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+	background-image: linear-gradient(45deg, #000 0%, #000 100%);
+}
+
+.bgImageRua {
+  position: absolute;
+  z-index: -50;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-mask-image: linear-gradient(to top, transparent 0%, black 50%);
+   mask-image: url(../img/piltover_3.jpg); /* recurso para remover msg de erro */
+}
+
+.tituloPrincipal {
+  font-family: 'Beaufort for LOL', Arial, sans-serif;
+  font-size: 104px;
+  color: #937341;
+  letter-spacing: .2em;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+.subTitulo {
+  text-transform: uppercase;
+  color: #937341;
+  padding: 20px 0 35px 0;
+  letter-spacing: .05em;
+  font-size: 30px;
+}
+
+.simbolo {
+  margin-top: 400px;
+}
+
+.infoPiltover {
+  height: auto;
+  width: 830px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.introTexto {
+  font-size: 17px;
+  color: #c4b998;
+  line-height: 1.6;
+  margin: 55px 35px 0 35px ;
+  max-width: 750px;
+  text-align: justify;
+  font-family: 'Caudex', serif;
+}
+
+.lenga {
+  font-size: 14px;
+  color: #c4b998;
+  line-height: 1.6;
+  margin: 55px 35px 0 35px ;
+  max-width: 750px;
+  text-align: justify;
+  font-family: 'Caudex', serif;
+}
+

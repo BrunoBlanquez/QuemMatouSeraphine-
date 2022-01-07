@@ -1,0 +1,174 @@
+.header-personagem {
+  background-color: #8C6B42;
+}
+
+.fundoCidade {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.tituloPrincipalPersonagem {
+  margin-top: 25px;
+  font-family: 'Beaufort for LOL', Arial, sans-serif;
+  font-size: 65px;
+  color: #A77941;
+  letter-spacing: .2em;
+  margin-top: 164px;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 50px rgba(255, 255, 255, 0.8);
+}
+
+.bgCidade {
+  position: absolute;
+  top: 77px;
+  z-index: -50;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.escolhaPersonagemContainer {
+  width: 80%;
+  max-height: 360px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 180px;
+}
+
+.escolha-personagem {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.escolha-personagem-bg {
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  cursor: pointer;
+}
+
+.imgBG {
+  width: 100%;
+}
+
+.personagem-img {
+  border: 4px solid #B9823D;
+  box-sizing: border-box;
+  filter: drop-shadow(10px 10px 20px rgba(236, 131, 0, 0.25));
+  border-radius: 45px;
+}
+.nome-personagem-bg {
+  color: #fff;
+  font-family: 'Beaufort for LOL', Arial, sans-serif;
+  position: absolute;
+  width: 65px;
+  height: 77px;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: 0.32px;
+  padding: 18px;
+}
+
+.nome-personagem {
+  color: #fff;
+  font-family: 'Beaufort for LOL', Arial, sans-serif;
+  position: absolute;
+  font-size: 40px;
+  line-height: 77px;
+  letter-spacing: 0.32px;
+  padding: 18px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  width: 760px;
+}
+
+.container-descricao {
+  position: relative;
+  top: 50px;
+  width: 530px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #7d613c;
+  border-radius: 45px;
+  filter: drop-shadow(5px 5px 20px rgba(255, 255, 255, 0.5))
+}
+
+.subtitulo {
+  color: #fff;
+  font-family: 'Caudex', serif;
+  font-size: 32px;
+  margin-top: 15px;
+  line-height: 38px;
+  letter-spacing: 0.32px;
+}
+
+.descricao-personagem {
+  color: #fff;
+  padding: 6% 12% 6% 12%;
+  font-family: 'Caudex', serif;
+  font-size: 19px;
+  font-weight: lighter;
+  line-height: 1.6rem;
+}
+
+.comecar {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.32px;
+  color: #8C6B42;
+  padding: 16px 50px;
+  position: static;
+  width: 222px;
+  height: 51px;
+  left: 115px;
+  top: 259px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin: 30px 0px;
+  border: none;
+  cursor: pointer;
+}
+
+.comecar:hover {
+  transform: scale(1.1);
+  transition: all .3s ease-in-out;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover, .close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
