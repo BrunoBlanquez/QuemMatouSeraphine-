@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vi 1.1 - Derrota</title>
+  <title>Vi 1.0</title>
   <link rel="stylesheet" href="../css/geral.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,17 +21,26 @@
     </ul>
   </header>
   <main class="mainContainer">
-    <div class="containerHistoria">
-      <img src="../img/defeat.png" alt="Derrota">
+    <div class="containerHistoria" data-paginaatual="vi1" id="dataset">
+      <h1 class="prologo">prólogo</h1>
       <div>
-        <p class="historia">Zaun é uma cidade perigosa, especialmente para uma policial de Piltover. Vi acaba sozinha no
-          local errado e na hora errada.</p>
+        <p class="historia">Vi estava presente quando Caitlyn recebeu informações sobre a morte da Seraphine. A pessoa
+          que informou sobre o falecimento da artista Seraphine disse ter visto um zaunita fugindo da cena do crime,
+          então, Vi decide ir para Zaun investigar.
+          Ao chegar em Zaun, Vi deve decidir para onde ir primeiro.
+        </p>
+        <p class="historia">Vi deve escolher o que fazer a seguir:</p>
+        <ul class="listaEscolha">
+          <li>1) Direto para o bar A Última Gota buscar informações</li>
+          <li>2) Questionar os habitantes </li>
+        </ul>
+        <button class="escolha" data-escolha="btnEscolha">Escolha</button>
+
       </div>
-      <button class="derrota" data-derrota="btnDerrota">Tentar novamente</button>
     </div>
   </main>
 
-  <script type="module" src="../js/escolha.js"></script>
+  <script type="module" src="../js/prompt/prompt-vi.js"></script>
 </body>
 
 </html>

@@ -39,9 +39,18 @@
 }
 
 .escolha {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.32px;
+  color: #8C6B42;
+  position: static;
+  width: 222px;
+  height: 51px;
+  left: 115px;
+  top: 259px;
+  background: #FFFFFF;
   margin: 7%;
-  height: 35px;
-  width: 135px;
   border-radius: 15px;
   cursor: pointer;
   border: 3px solid #000;
@@ -71,6 +80,16 @@
   cursor: pointer;
 }
 
+.derrota:hover {
+  transform: scale(1.1);
+  transition: all .3s ease-in-out;
+}
+
 .divider {
   width: 720px;
+}
+
+.imgVitoria {
+  width: 434px;
+  height: 366px;
 }

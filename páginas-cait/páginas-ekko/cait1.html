@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vi 1.1 - Derrota</title>
+  <title>Cait 1.0</title>
   <link rel="stylesheet" href="../css/geral.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,18 +21,24 @@
     </ul>
   </header>
   <main class="mainContainer">
-    <div class="containerHistoria">
-      <img src="../img/defeat.png" alt="Derrota">
+    <div class="containerHistoria" data-paginaatual="cait1" id="dataset">
       <div>
-        <p class="historia">Zaun é um local perigoso, mesmo que Vi tenha nascido e crescido lá, hoje ela faz parte da
-          polícia de Piltover. Isso fez com que ela tivesse muitos inimigos em Zaun, que souberam da sua visita à
-          cidade e decidiram mostrar o que aconteceu aos desertores.</p>
+        <p class="historia">Ekko recebe informações de um núcleo Hextec em posse de uma artista de Piltover. Pensa em
+          usar
+          o núcleo para potencializar seu Revo-Z, um dispositivo que o permitia manipular pequenos diferenciais de
+          tempo.
+          Vai até o local informado, ouve gritos e sons de combate. </p>
+        <img src="../img/HeaderDivider.png" alt="HeaderDivider" class="divider">
+        <p class="historia">Caitlyn deve escolher o que fazer a seguir:</p>
+        <ul class="listaEscolha">
+          <li>1) Vitória</li>
+          <li>2) Derrota</li>
+        </ul>
+        <button class="escolha">Escolha</button>
       </div>
-      <button class="derrota" data-derrota="btnDerrota">Tentar novamente</button>
     </div>
   </main>
-
-  <script type="module" src="../js/escolha.js"></script>
+  <script src="../js/prompt/prompt-cait.js"></script>
 </body>
 
 </html>
