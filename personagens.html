@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Escolha seu Personagem</title>
   <link rel="stylesheet" href="./css/geral.css">
-
 </head>
 
 <body>
@@ -21,15 +20,15 @@
   <main class="fundoCidade">
     <img src=" ./img/piltover_2-dark.png" alt="Imagem de Piltover" class="bgCidade">
     <h1 class="tituloPrincipalPersonagem">ESCOLHA SEU PERSONAGEM</h1>
-
     <div class="escolhaPersonagemContainer">
-      <div class="escolha-personagem myBtn" id="myBtn" data-escolha="escolha">
+
+      <div class="escolha-personagem" id="btnVi">
         <img src="./img/vi-escolha.png" alt="Vi" class="personagem-img">
         <h1 class="nome-personagem">Vi</h2>
-          <div id="modal-personagem" class="modal">
+          <div id="modalVi" class="modal">
             <div class="modal-content">
               <span class="close">&times;</span>
-              <div class="container-descricao">
+              <div class="containerDescricao">
                 <div class="escolha-personagem-bg">
                   <img src="./img/vi-bg.png" class="imgBG" alt="Imagem Vi">
                   <h1 class="nome-personagem-bg">Vi</h2>
@@ -40,12 +39,12 @@
                   só, Vi desenvolveu instintos de sobrevivência extremamente certeiros e um senso de humor extremamente
                   ácido. Agora trabalhando com os Vigias de Piltover para manter a paz, ela porta poderosas manoplas
                   hextec capazes de esmagar paredes e suspeitos com a mesma facilidade.</p>
-                <a href="./páginas-vi/1.0-vi.html"><button class="comecar">Começar</button></a>
+                <a href="./páginas-vi/vi1.html"><button class="comecar">Começar</button></a>
               </div>
             </div>
           </div>
       </div>
-      <div class="escolha-personagem" id="myBtn">
+      <div class="escolha-personagem" id="btnCait">
         <img src="./img/cait-escolha.png" alt="Caitlyn" class="personagem-img">
         <h1 class="nome-personagem">Caitlyn</h2>
           <div id="modal-personagem" class="modal">
@@ -69,12 +68,12 @@
           </div>
       </div>
 
-      <div class="escolha-personagem" id="myBtn">
+      <div class="escolha-personagem" id="btnEkko">
         <img src="./img/ekko-escolha.png" alt="Ekko" class="personagem-img">
         <h1 class="nome-personagem">Ekko</h2>
-          <div id="modal-personagem" class="modal">
+          <div id="modal-personagem" class="modal modalVi">
             <div class="modal-content">
-              <div class="selecao-ekko container-descricao">
+              <div class="containerDescricao">
                 <span class="close">&times;</span>
                 <div class="escolha-personagem-bg">
                   <img src="../img/Ekko-escolha.png" alt="Imagem Ekko">
@@ -96,7 +95,7 @@
       </div>
     </div>
   </main>
-  <script src="./modal.js"></script>
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
