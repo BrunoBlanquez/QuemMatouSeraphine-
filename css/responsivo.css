@@ -3,19 +3,51 @@
     font-size: 30px;
     padding: 6% 12% 6% 12%;
   }
+
   .infoPiltover {
     width: auto;
     height: auto;
     display: flex;
     justify-content: center;
   }
+
   .header {
     justify-content: space-around;
   }
+
   .header li {
     margin-left: 15px;
     font-size: 15px;
   }
+
+  #btnMobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: none;
+    color: white;
+    margin: 15px;
+    width: 60px;
+    height: 30px;
+    gap: .5rem;
+  }
+
+  #hamburguer {
+    border-top: 2px solid;
+    width: 20px;
+  }
+
+  #hamburguer::after, #hamburguer::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin-top: 5px;
+    background: currentColor;
+    transition: .6s;
+  }
+
   .headerHome {
     background-color: rgb(0, 0, 0, 0);
     flex-direction: column;
@@ -23,12 +55,26 @@
     padding: 20px 5px;
     margin-bottom: 15px;
   }
+
+  #nav.ativo #menu {
+    display: flex;
+    visibility: visible;
+  }
+
+  #menu {
+    position: absolute;
+    width: 100%;
+    top: 45px;
+    visibility: hidden;
+  }
+
   .tituloPrincipalPersonagem, .tituloPrincipal {
     font-size: 30px;
     text-align: center;
     justify-content: center;
     margin-top: 90px;
   }
+
   .bgCidade {
     display: none;
     z-index: -50;
@@ -58,4 +104,5 @@
     height: auto;
     width: auto;
   }
+  
 }
