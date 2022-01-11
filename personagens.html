@@ -22,76 +22,31 @@
     <h1 class="tituloPrincipalPersonagem">ESCOLHA SEU PERSONAGEM</h1>
     <div class="escolhaPersonagemContainer">
 
-      <div class="escolha-personagem" id="btnVi">
+      <div class="escolha-personagem modal-button" onclick="selecionarPersonagem('vi')">
         <img src="./img/vi-escolha.png" alt="Vi" class="personagem-img">
         <h1 class="nome-personagem">Vi</h2>
-          <div id="modalVi" class="modal">
-            <div class="modal-content">
-              <span class="close">&times;</span>
-              <div class="containerDescricao">
-                <div class="escolha-personagem-bg">
-                  <img src="./img/vi-bg.png" class="imgBG" alt="Imagem Vi">
-                  <h1 class="nome-personagem-bg">Vi</h2>
-                </div>
-                <h2 class="subtitulo">A Defensora de Piltover</h2>
-                <p class="descricao-personagem">Antiga criminosa das ruas violentas de Zaun, Vi é uma mulher temível,
-                  impulsiva e explosiva que tem muito pouco respeito por autoridades. Após ter crescido completamente
-                  só, Vi desenvolveu instintos de sobrevivência extremamente certeiros e um senso de humor extremamente
-                  ácido. Agora trabalhando com os Vigias de Piltover para manter a paz, ela porta poderosas manoplas
-                  hextec capazes de esmagar paredes e suspeitos com a mesma facilidade.</p>
-                <a href="./páginas-vi/vi1.html"><button class="comecar">Começar</button></a>
-              </div>
-            </div>
-          </div>
-      </div>
-      <div class="escolha-personagem" id="btnCait">
-        <img src="./img/cait-escolha.png" alt="Caitlyn" class="personagem-img">
-        <h1 class="nome-personagem">Caitlyn</h2>
-          <div id="modal-personagem" class="modal">
-            <div class="modal-content">
-              <div class="selecao-ekko container-descricao">
-                <span class="close">&times;</span>
-                <div class="escolha-personagem-bg">
-                  <img src="../img/Ekko-escolha.png" alt="Imagem Cait">
-                  <h1 class="nome-personagem-bg">Ekko</h2>
-                </div>
-                <p class="descricao-personagem">Conhecida como sua melhor pacificadora, Caitlyn também é a melhor
-                  escolha de
-                  Piltover para livrar a cidade de seus elementos criminosos elusivos. É comum que ela faça dupla com
-                  Vi, agindo como um contraponto de calmaria para a natureza impetuosa de sua parceira. Mesmo carregando
-                  um rifle hextec único, a arma mais poderosa de Caitlyn é seu intelecto superior, que permite que ela
-                  prepare elaboradas armadilhas para qualquer fora da lei tolo o suficiente para operar na Cidade do
-                  Progresso.</p>
-                <a href="./páginas-ekko/1.0-ekko.html"><button class="comecar">Começar</button></a>
-              </div>
-            </div>
-          </div>
       </div>
 
-      <div class="escolha-personagem" id="btnEkko">
-        <img src="./img/ekko-escolha.png" alt="Ekko" class="personagem-img">
+      <div class="escolha-personagem modal-button" onclick="selecionarPersonagem('caitlyn')">
+        <img src="./img/cait-escolha.png" alt="Caitlyn" class="personagem-img">
+        <h1 class="nome-personagem">Caitlyn</h2>
+      </div>
+
+      <div class="escolha-personagem modal-button" onclick="selecionarPersonagem('ekko')">
+        <img src="./img/Ekko-escolha.png" alt="Ekko" class="personagem-img">
         <h1 class="nome-personagem">Ekko</h2>
-          <div id="modal-personagem" class="modal modalVi">
-            <div class="modal-content">
-              <div class="containerDescricao">
-                <span class="close">&times;</span>
-                <div class="escolha-personagem-bg">
-                  <img src="../img/Ekko-escolha.png" alt="Imagem Ekko">
-                  <h1 class="nome-personagem-bg">Ekko</h2>
-                </div>
-                <p class="descricao-personagem">Um prodígio das violentas ruas de Zaun, Ekko manipula o tempo para
-                  reverter
-                  qualquer
-                  situação a seu favor.
-                  Usando sua própria invenção, o Revo-Z, ele explora as possíveis bifurcações da realidade para criar o
-                  momento
-                  perfeito. Embora valorize muito sua liberdade, quando algo ameaça seus amigos, ele não mede esforços
-                  para
-                  defendê-los. Para meros observadores, Ekko parece conseguir o impossível sempre de primeira.</p>
-                <a href="./páginas-ekko/1.0-ekko.html"><button class="comecar">Começar</button></a>
-              </div>
-            </div>
+      </div>
+
+      <div id="charModal" class="modal">
+        <div class="modal-content">
+          <span class="close" id="closeModal">&times;</span>
+          <div class="containerDescricao">
+            <div id="personagemBg" class="escolha-personagem-bg"></div>
+            <div id="personagemSubtitulo"></div>
+            <div id="personagemHistoria"></div>
+            <div id="comecarJogo"></div>
           </div>
+        </div>
       </div>
     </div>
   </main>

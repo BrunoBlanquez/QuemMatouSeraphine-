@@ -8,5 +8,4 @@ function escolha() {
 }
 let iniciar = document.querySelector("button")
 const paginaatual = document.getElementById("dataset");
-console.log(paginaatual.dataset.paginaatual)
 iniciar.onclick = escolha;
