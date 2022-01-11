@@ -1,0 +1,61 @@
+@media only screen and (max-width: 761px) {
+  .subtitulo {
+    font-size: 30px;
+    padding: 6% 12% 6% 12%;
+  }
+  .infoPiltover {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .header {
+    justify-content: space-around;
+  }
+  .header li {
+    margin-left: 15px;
+    font-size: 15px;
+  }
+  .headerHome {
+    background-color: rgb(0, 0, 0, 0);
+    flex-direction: column;
+    align-items: baseline;
+    padding: 20px 5px;
+    margin-bottom: 15px;
+  }
+  .tituloPrincipalPersonagem, .tituloPrincipal {
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 90px;
+  }
+  .bgCidade {
+    display: none;
+    z-index: -50;
+  }
+  .fundoCidade { 
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  .escolhaPersonagemContainer {
+    flex-direction: column;
+  }
+  .escolha-personagem {
+    margin-bottom: 25px;
+  }
+  .containerDescricao {
+    width: 300px;
+  }
+  .personagemSubtitulo {
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+  } 
+  .subTitulo {
+    padding: 15px 0 15px 0;
+    margin: 15px;
+    font-size: 25px;
+    height: auto;
+    width: auto;
+  }
+}
