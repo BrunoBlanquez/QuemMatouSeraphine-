@@ -1,0 +1,20 @@
+.fundoCidadeSera {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#infoPrologo {
+  display: flex;
+  justify-content: center;
+}
+
+.tituloPrincipalSera {
+  margin-top: 10px;
+  font-family: 'Beaufort for LOL', Arial, sans-serif;
+  font-size: 55px;
+  color: #A77941;
+  letter-spacing: .2em;
+  margin: 150px 0 75px 0;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 50px rgba(255, 255, 255, 0.8);
+}

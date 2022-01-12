@@ -17,42 +17,41 @@
       <li><a href="./personagens.html">Jogue Agora</a></li>
     </ul>
   </header>
-  <main class="fundoCidade">
+  <main class="fundoCidade" id="carrosel">
     <img src=" ./img/piltover_2-dark.png" alt="Imagem de Piltover" class="bgCidade">
-    <h1 class="tituloPrincipalPersonagem">Quem matou Seraphine?</h1>
-    <h2 class="tituloPrincipal">escolha seu personagem</h1>
-      <div class="escolhaPersonagemContainer">
+    <h2 class="tituloPrincipal" id="tituloPrincipalpersonagens">escolha seu personagem</h2>
+    <div class="escolhaPersonagemContainer" id="img">
 
-        <div class="escolha-personagem modal-button" onclick="selecionarPersonagem('vi')">
-          <img src="./img/vi-escolha.png" alt="Vi" class="personagem-img">
-          <h1 class="nome-personagem">Vi
-    </h2>
-    </div>
+      <div class="escolha-personagem modal-button" onclick="selecionarPersonagem('vi')">
+        <img src="./img/vi-escolha.png" alt="Vi" class="personagem-img">
+        <h2 class="nome-personagem">Vi</h2>
+      </div>
 
-    <div class="escolha-personagem modal-button" onclick="selecionarPersonagem('caitlyn')">
-      <img src="./img/cait-escolha.png" alt="Caitlyn" class="personagem-img">
-      <h1 class="nome-personagem">Caitlyn</h2>
-    </div>
+      <div class="escolha-personagem modal-button" onclick="selecionarPersonagem('caitlyn')">
+        <img src="./img/cait-escolha.png" alt="Caitlyn" class="personagem-img">
+        <h2 class="nome-personagem">Caitlyn</h2>
+      </div>
 
-    <div class="escolha-personagem modal-button" onclick="selecionarPersonagem('ekko')">
-      <img src="./img/Ekko-escolha.png" alt="Ekko" class="personagem-img">
-      <h1 class="nome-personagem">Ekko</h2>
-    </div>
+      <div class="escolha-personagem modal-button" onclick="selecionarPersonagem('ekko')">
+        <img src="./img/Ekko-escolha.png" alt="Ekko" class="personagem-img">
+        <h2 class="nome-personagem">Ekko</h2>
+      </div>
 
-    <div id="charModal" class="modal">
-      <div class="modal-content">
-        <span class="close" id="closeModal">&times;</span>
-        <div class="containerDescricao">
-          <div id="personagemBg" class="escolha-personagem-bg"></div>
-          <div id="personagemSubtitulo"></div>
-          <div id="personagemHistoria"></div>
-          <div id="comecarJogo"></div>
+      <div id="charModal" class="modal">
+        <div class="modal-content">
+          <span class="close" id="closeModal">&times;</span>
+          <div class="containerDescricao">
+            <div id="personagemBg" class="escolha-personagem-bg"></div>
+            <div id="personagemSubtitulo"></div>
+            <div id="personagemHistoria"></div>
+            <div id="comecarJogo"></div>
+          </div>
         </div>
       </div>
     </div>
-    </div>
   </main>
   <script src="./js/modal.js"></script>
+  <!-- <script src="./js/carrossel.js" defer></script> -->
 </body>
 
 </html>
