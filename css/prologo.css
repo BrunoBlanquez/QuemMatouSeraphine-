@@ -13,8 +13,36 @@
   font-family: 'Beaufort for LOL', Arial, sans-serif;
   font-size: 55px;
   color: #A77941;
+  color: #A77941;
   letter-spacing: .2em;
-  margin: 150px 0 75px 0;
+  margin: 550px 0 75px 0;
   text-transform: uppercase;
-  text-shadow: 5px 5px 50px rgba(255, 255, 255, 0.8);
+  text-shadow: 5px 5px 50px rgba(0, 0, 0, 0.8);
+}
+
+.subTituloSera {
+  text-transform: uppercase;
+  color: #937341;
+  padding: 20px 0 35px 0;
+  letter-spacing: .05em;
+  font-size: 30px;
+  text-shadow: 5px 5px 50px rgba(0, 0, 0, 0.8);
+}
+
+.btnIniciarJogo {
+  height: 55px;
+  width: 150px;
+  margin: 35px 0 auto;
+  background-color: #A77941;
+  color: white;
+  font-family: 'Caudex', serif;
+  font-size: 20px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.btnIniciarJogo:hover {
+  transform: scale(1.2);
+  transition: all .3s ease-in-out;
 }
