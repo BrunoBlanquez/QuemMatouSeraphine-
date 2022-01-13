@@ -104,5 +104,7 @@
     height: auto;
     width: auto;
   }
-  
+  .containerHistoria {
+    margin: 25% 5% auto
+  }
 }
