@@ -104,7 +104,19 @@
     height: auto;
     width: auto;
   }
+
+  .subTituloSera {
+    padding: 15px 0 15px 0;
+    margin: 15px 15%;
+    font-size: 25px;
+    height: auto;
+    width: auto;
+  }
+
   .containerHistoria {
     margin: 25% 5% auto
+  }
+  .divisor {
+    display: none;
   }
 }
