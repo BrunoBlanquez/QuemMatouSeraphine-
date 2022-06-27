@@ -1,18 +1,15 @@
-### ❤️ Projeto final do módulo 4
+# ❤️ Projeto final do módulo 1
 
-
+!(https://camo.githubusercontent.com/d957f9a61fe97bd5d91c48d79785981517a7de816a974ed647e66178c1e3ad01/687474703a2f2f696d672e736869656c64732e696f2f7374617469632f76313f6c6162656c3d535441545553266d6573736167653d46494e414c495a41444f26636f6c6f723d475245454e267374796c653d666f722d7468652d6261646765)
 
 
 Sobre o projeto:
-Projeto desenvolvido para a conclusão do módulo 4 na Resilia Educação.
+Projeto desenvolvido para a conclusão do módulo 1 do curso de WebDev na Resilia Educação.
 
-Para este projeto, foi proposto a criação de uma API de um Estudio de tatuagem, onde cada integrante do grupo ficou responsável por uma entidade.
-
-Neste repositório se encontra a entidade de Acessorios, Clientes, Catalogo, Catalogo de exclusivas e .
-
-Nesta aplicação é possível registrar, listar, atualizar e deletar clientes.
+Para este projeto, foi proposto a criação de um jogo de escolhas, utilizando Prompt do JS para definir as escolhas do jogador.
 
 Tecnologias usadas:
+
 
      
 
