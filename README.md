@@ -13,47 +13,25 @@ Para este projeto, foi proposto a criação de um jogo de escolhas, utilizando P
 
 Tecnologias usadas:
 
-<p align="center">
+<p>
   <img width="100" height="100" src="https://camo.githubusercontent.com/528e232c728b497080cbf31d2a7e797caa81e402ff81643f79b2c2c395a29f17/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6a6176617363726970742f6a6176617363726970742d706c61696e2e737667">
 </p>
 
-<p align="center">
+<p>
   <img width="100" height="100" src="https://centroinovar.com.br/wp-content/uploads/2021/06/CSS3.png">
 </p>
 
-<p align="center">
+<p>
   <img width="100" height="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png">
 </p>
      
 
 ℹ️ COMO USAR ℹ️
-Para usar este projeto, você vai precisar do Git, Node.JS v16.15.0 LTS ou superior + Npm v8.5.0 instalados em seu computador. Você também vai precisar instalar algum programa para testar a API, recomendamos o Insomnia Insomnia para testar as rotas. Comandos iniciais:
+Para usar este projeto, não será necessário instalar nada, pois ele está disponível no GitHub Pages pelo link: https://brunoblanquez.github.io/QuemMatouSeraphine-/
 
-# Clone este repositorio
-$ git clone https://github.com/anthonythom/ProjetoResilia-M4-API.git
 
-# Entre no repositorio
-$ cd Projeto-M4-API
-
-# Instale as dependências
-$ npm install
-
-# Inicie o projeto 
-$ npm start
-Rotas da entidade Clientes
-GET - veja todos os clientes http://localhost:3030/cliente
-GET - veja um clientes pelo id = http://localhost:3030/cliente/:id
-POST - adicione clientes = http://localhost:3030/cliente
-PUT - atualize clientes = http://localhost:3030/cliente/:id
-DELETE - delete clientes = http://localhost:3030/cliente/:id
-
-Teste também as outras entidades alterando somemente o nome das rotas
-Contribuidores do projeto
-Anthony Thomas
+Contribuidor do projeto
 Bruno Blanquez
-Rafael Alesson
-Rafael Peruzini
-Yasmin Ramos
 
 
 
